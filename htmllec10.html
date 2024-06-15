@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* header */
+        header {
+            background-color: skyblue;
+            color: white;
+            padding: 12px;
+            font-size: 20px;
+            text-align: center;
+            font-family: cursive;
+            border: 5px solid black;
+
+        }
+
+        /* navbar */
+        nav {
+            background-color: rgb(29, 211, 211);
+            float: left;
+            padding: 12px;
+            width: 25%;
+            height: 300px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            padding: 12px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        a {
+            color: black;
+        }
+
+        /* article */
+        article {
+            background-color: rgb(95, 95, 124);
+            color: black;
+            float: left;
+            width: 75%;
+            padding: 28px;
+            height: 300px;
+            overflow: auto;
+        }
+
+        /* about */
+        .hello {
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border: 5px solid black;
+
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* footer */
+        footer {
+            background-color: black;
+            color: white;
+            padding: 12px;
+            font-size: 30px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width:500px) {
+
+            nav,
+            article {
+                width: 100%;
+            }
+        }
+
+        .left {
+            background-color: deepskyblue;
+            color: black;
+            padding: 20px;
+            float: left;
+            width: 25%;
+            height: 400px;
+        }
+
+        .left img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .center {
+            background-color: aquamarine;
+            color: black;
+            padding: 20px;
+            float: left;
+            width: 50%;
+            height: 400px;
+        }
+
+        .center img {
+            width: 100%;
+            height: 297px;
+        }
+
+        img {
+            opacity: 0.7;
+        }
+
+        img:hover {
+            opacity: 1;
+            box-shadow: 0px 0px 20px black;
+        }
+
+        .right {
+            background-color: deepskyblue;
+            color: black;
+            padding: 20px;
+            float: left;
+            width: 25%;
+            height: 400px;
+        }
+
+        .right img {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>float layout</h1> -->
+    <header>
+        <h2> explor to Mount Everest</h2>
+    </header>
+    <section>
+        <!-- <h1>navbar</h1> -->
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+        </nav>
+
+        <!-- <h1>aticle</h1> -->
+        <article>
+            <h1>
+                <li>home</li>
+            </h1>
+            <p>
+                <li>Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet, an
+                    autonomous region of China. At 8,849 meters (29,032 feet), it is considered the tallest point on
+                    Earth.</li>
+            </p>
+            <p>
+                <li> In the nineteenth century, the mountain was named after George Everest, a former Surveyor General
+                    of India</li>
+            </p>
+            <hr>
+            <h1>
+                <li>about</li>
+            </h1>
+            <p>
+                <li>Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet, an
+                    autonomous region of China.</li>
+            </p>
+            <p>
+                <li> At 8,849 meters (29,032 feet), it is considered the tallest point on Earth.</li>
+            </p>
+            <hr>
+            <h1>
+                <li>help</li>
+            </h1>
+            <p>
+                <li>Sherpas are renowned in the international climbing and mountaineering community for their hardiness,
+                    expertise, and experience at very high altitudes.</li>
+            </p>
+            <p>
+                <li> It has been speculated that part of the Sherpas' climbing ability is the result of a genetic
+                    adaptation to living in high altitudes.
+                </li>
+            </p>
+            <hr>
+            <h1>
+                <li>gallery</li>
+            </h1>
+            <p>
+                <li> (1)Phakding to Namche Bazaar Rest Point.(2) Sagarmatha National Park Museum.(3) Hotel Everest
+                    View.(4) Namche Bazaar to Tengboche Route.li</li>
+            </p>
+            <p>
+                <li> (5)Tengboche / Pangboche.(6)Mount Everest Base Camp.(7)Kala Patthar.(8)Gokyo Ri.</li>
+            </p>
+            <p>
+                <li><b>(1)Phakding to Namche Bazaar Rest Point</b></li>
+            </p>
+            <a href="img13.jpg"><img src="img13.jpg" alt="Phakding to Namche Bazaar Rest Point" width="700px"></a>
+            <p>
+                <li><b>(2) Sagarmatha National Park Museum</b></li>
+            </p>
+            <a href="img14.jpg"><img src="img14.jpg" alt="Sagarmatha National Park Museum"></a>
+            <p>
+                <li><b>(3) Hotel Everest View</b></li>
+            </p>
+            <a href="img15.jpg"><img src="img15.jpg" alt="Hotel Everest View"></a>
+
+        </article>
+    </section>
+    <h1 class="hello">about</h1>
+    <div id="test">
+        <div class="left">
+            <h2>
+                <li><b>Climbing Everest</b></li>
+            </h2>
+            <p>Climbing Everest is an enterprise that has to be prepared in detail but before climbers head for the
+                Himalayas they have to devote a long time to build stamina and train to get used to harsh conditions
+                such as low temperatures and low-oxygen environment at higher altitudes.</p>
+            <div>
+                <a href="img17.jpg"><img src="img17.jpg" alt="Climbing Everest"></a>
+            </div>
+        </div>
+        <div class="center">
+            <h2>
+                <li><b>Current Medical Care in Everest</b></li>
+            </h2>
+            <p>The hospital provides inpatient and outpatient services, OPD services, and deliver several other services
+                catered to the locals in the region. The hospital has smaller service centers, in the villages of
+                Phortse, Thame, and Monjo; these centers can provide first aid to trekkers.</p>
+            <div>
+                <a href="img18.jpg"><img src="img18.jpg" alt="Current Medical Care in Everest"></a>
+            </div>
+        </div>
+        <div class="right">
+            <h2>
+                <li><b>about in evrest</b></li>
+            </h2>
+            <p>Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet, an
+                autonomous region of China. At 8,849 meters (29,032 feet), it is considered the tallest point on Earth
+                In the nineteenth century, the mountain was named after George Everest, a former Surveyor General of
+                India.</p>
+            <div>
+                <a href="img19.jpg"><img src="img19.jpg" alt="about in evrest"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><b>THAKS FOR VISIT IN PAG</b></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hi{
+           text-align: center;
+           font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2><li>form attributes</li></h2>
+    <pre>
+        <li>action</li>
+        <li>target</li>
+        <li>method = post and get</li>
+    </pre>
+<hr>
+    <h2>input type</h2>
+    <pre>
+        <li>button</li>
+        <li>submit</li>
+<hr>
+        <li>checbox</li>
+        <li>radio</li>
+<hr>
+        <li>data</li>
+        <li>datatime-local</li>
+        <li>month</li>
+        <li>time</li>
+        <li>week</li>
+<hr>    
+        <li>email</li>
+        <li>file</li>
+        <li>hidden</li>
+        <li>image</li>
+        <li>number</li>
+        <li>password</li>
+        <li>range</li>
+        <li>srarch</li>
+        <li>tel</li>
+        <li>text</li>
+        <li>url</li>
+        <li>color</li>
+    </pre>
+<hr>
+   <h2>input attributes</h2>
+   <pre>
+<li>value</li>
+<li>redonly</li>
+<li>required</li>
+<li>size</li>
+<li>maxlength</li>
+<li>min and max</li>
+<li>placeholder</li>
+<li>pattern</li>
+<li>step</li>
+<li>hight and width</li>
+<li>list</li>
+<li>autocomplexe</li>
+   </pre>
+<hr>
+    <h2>form elements</h2>
+    <pre>
+    <li>input</li> 
+    <li>label</li>
+    <li>select </li>
+    <li>textarea</li>
+    <li>button </li>
+    <li>fieldset </li>
+    <li>legend </li>
+    <li>datalist </li>
+    <li>option </li>
+    <li>optgroup</li>
+    </pre>
+    <hr>
+<fieldset>
+    <legend class="hi">input type</legend>
+<form action="" method="get" autocomplete="on">
+
+<h1><li>button</li></h1>
+<label for="button">click me :-</label>
+<input type="button" name="button" id="button" value="hello">
+
+<h1><li>checbox</li></h1>
+<p>what do you want :-</p>
+<input type="checkbox" id="vehicle1" name="what do you want" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="what do you want" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="what do you want" value="Boat">
+<label for="vehicle3"> I have a boat</label><br><br>
+
+<h1><li>radio</li></h1>
+<p> Which language do you prefer :-</p>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css">CSS</label><br>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript">JavaScript</label>
+
+<h1><li>data</li></h1>
+<label for="birthday">Birthday :-</label>
+<input type="date" id="birthday" name="birthday">
+
+<h1><li>datetime-local</li></h1>
+<label for="birthdaytime">Birthday (date and time) :-</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+<h1><li>month</li></h1>
+<label for="bdaymonth">Birthday (month and year) :-</label>
+<input type="month" id="bdaymonth" name="bdaymonth">
+
+<h1><li>time</li></h1>
+<label for="appt">Select a time :-</label>
+<input type="time" id="appt" name="appt" readonly>
+
+<h1><li>week</li></h1>
+<label for="week">Select a week :-</label>
+<input type="week" id="week" name="week">
+
+<h1><li>email</li></h1>
+<label for="email">Enter your email :-</label>
+<input type="email" id="email" name="email" placeholder="pleas  enter your email">
+
+<h1><li>file</li></h1>
+<label for="myfile">Select a file :-</label>
+<input type="file" id="myfile" name="myfile"><br><br>
+
+<h1><li>hidden</li></h1>
+<label for="fname">First name :-</label>
+<input type="text" id="fname" name="fname" placeholder="pleas  enter your name"><br><br>
+
+<h1><li>image</li></h1>
+<label for="image">image :-</label>
+<input type="image" id="image" src="img12.jpg" alt="Submit" width="100px" height="100px">
+
+<h1><li>number</li></h1>
+<label for="quantity">Quantity (between 0 and 10) :-</label>
+<input type="number" id="quantity" name="quantity"  max="10" step="1">
+
+<h1><li>password</li></h1>
+<label for="pwd">Password :-</label><br>
+<input type="password" id="pwd" name="pwd" required  maxlength="5"><br><br>
+
+<h1><li>range</li></h1>
+<label for="vol">Volume (between 0 and 50) :-</label>
+<input type="range" id="vol" name="vol" min="0" max="100">
+
+<h1><li>search</li></h1>
+<label for="gsearch">Search Google :-</label>
+<input type="search" id="gsearch" name="gsearch" size="30px">
+
+<h1><li>tel</li></h1>
+<label for="phone">Enter a phone number :-</label><br><br>
+<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+<h1><li>text</li></h1>
+<label for="fname">First name :-</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last name :-</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+
+<h1><li>url</li></h1>
+<label for="homepage">Add your homepage :-</label>
+<input type="url" id="homepage" name="homepage">
+
+<h1><li>color</li></h1>
+<label for="favcolor">Select your favorite color :-</label>
+<input type="color" id="favcolor" name="favcolor" >
+
+<h2><li>list attributes</li></h2>
+<input list="corse" name="corse">
+<datalist id="corse">
+  <option value="html">
+  <option value="css">
+  <option value="java">
+  <option value="php">
+  <option value="js">
+</datalist>
+
+<h1><li>select</li></h1>
+<label for="cars">Choose a car :-</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">supra</option>
+  <option value="fiat">tata</option>
+  <option value="audi">Audi</option>
+</select>
+
+<h1><li>textarea</li></h1>
+<textarea name="message" rows="10" cols="30">hello abcoding</textarea>
+<br><br>
+
+<h1><li>datalist</li></h1>
+<input list="fashion" name="fashion">
+<datalist id="fashion">
+  <option value="Louis Vuitton">
+  <option value="dior">
+  <option value="zara">
+  <option value="puma">
+  <option value="Nike">
+</datalist>
+
+<h1><li>optgroup</li></h1>
+<label for="drink">Choose a drink:</label>
+  <select name="drink" id="drink">
+    <optgroup label="hot">
+      <option value="volvo">tea</option>
+      <option value="saab">coffe</option>
+    </optgroup>
+    <optgroup label="cold">
+      <option value="mercedes">soda</option>
+      <option value="audi">coco</option>
+    </optgroup>
+  </select>
+  <br><br>
+
+ 
+<h1><li>submit</li></h1>
+<label for="submit">submit :-</label>
+<input type="submit" name="submit" id="submit" value="submit">
+
+
+</form>
+</fieldset>
+</body>
+</html>

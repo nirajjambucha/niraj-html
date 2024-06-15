@@ -1,0 +1,15 @@
+#niraj{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: 5px solid slategrey;
+    border-radius: 20px;
+    width: 100px;
+}
+#niraj:hover{
+    background-color: slategrey;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}

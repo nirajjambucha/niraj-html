@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html4.css">
+    <style>
+        #test{
+            background-color: aquamarine;
+            color: black;
+        }
+        .demo{
+            background-color: aquamarine;
+            color: black;
+        }
+        #test1{
+            background-color: black;
+            color: white;
+        }
+        #demo1{
+            background-color: aquamarine;
+            color: black;
+        }
+        #demo1 .demo2{
+            background-color: blue;
+            color: white;
+        }
+        p{
+            background-color: darkgreen;
+            color: white;
+        }
+        div {
+            background-color: navy;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="right" ><button style="background-color: blue; color: white; border-radius: 20px;"><h2>css type</h2></button></marquee>
+    <h1>css == cascading style sheets</h1>
+    <pre>
+        <p><li>inline</li></p>
+        <p><li>internal</li></p>
+        <p><li>external</li></p>
+    </pre>
+    <h2><li>inline</li></h2>
+    <p style="background-color: aqua;color: black; font-size: 20px; font-family: 'Courier New', Courier, monospace; border: 5px solid black; border-radius: 20px; text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.</p>
+    <h1><li>internal</li></h1>
+    <pre>
+        id == unic == (#)
+        class == multipal == (.)
+    </pre>
+    <h2>id</h2>
+    <p id="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, cumque?</p>
+    <p id="test">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, ullam.</p>
+    <p id="test">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, ullam.</p>
+    <h2>class</h2>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, error.</p>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, error.</p>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, error.</p>
+   <h2>(div) parent and child </h2>
+   <div id="demo1">
+    <p id="test1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, excepturi?</p>
+    <p class="demo2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, fuga?</p>
+    <p id="test1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ipsam.</p>
+   </div>
+   <h2>element Selectors</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, tenetur.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, a.</p>
+
+    </div>
+    <h1><li>external</li></h1>
+    <p id="niraj">niraj jambucha</p>
+</body>
+</html>

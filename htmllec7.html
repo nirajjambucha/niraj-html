@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 12px;
+            color: black;
+
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+
+        }
+
+        th:hover {
+            background-color: black;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: grey;
+
+        }
+
+        tr:nth-child(odd) {
+            background-color: silver;
+            color: beige (97 20 220);
+        }
+
+        td:hover {
+            background-color: rgb(31, 29, 29);
+            color: white;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        caption {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            border: 5px solid gray;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>no</th>
+            <th>first name</th>
+            <th>last name</th>
+            <th>email</th>
+            <th>address</th>
+            <th>phone</th>
+            <th>massage</th>
+            <th>imges</th>
+            <th>action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>zara</td>
+            <td rowspan="4">fashion brand</td>
+            <td>zara@gmail.com</td>
+            <td>Municipality of Arteixo</td>
+            <td>1234567890</td>
+            <td rowspan="4">hello</td>
+            <td><a href="img1.jpg"><img src="img1.jpg" alt="zara" width="100"></a></td>
+            <td><a href="https://www.zara.com/in/">zara</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>louisvuitton</td>
+            <!-- <td>fashion brand</td> -->
+            <td>louisvuitton@.gmail.com</td>
+            <td rowspan="2">Paris, France</td>
+            <td>1234567890</td>
+            <!-- <td>hello</td> -->
+            <td><a href="img2.jpg"><img src="img2.jpg" alt="louisvuitton" width="100"></a></td>
+            <td><a href="https://in.louisvuitton.com/eng-in/homepage">louisvuitton</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dior</td>
+            <!-- <td>fashion brand</td> -->
+            <td>dior@.gmail.com</td>
+            <!-- <td>Paris, France</td> -->
+            <td>1234567890</td>
+            <!-- <td>hello</td> -->
+            <td><a href="img3.jpg"><img src="img3.jpg" alt="dior" width="100"></a></td>
+            <td><a href="https://www.dior.com/en_int/fashion/mens-fashion/ready-to-wear/t-shirts-polos">dior</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>h & m</td>
+            <!-- <td>fashion brand</td> -->
+            <td>h & m@.gmail.com</td>
+            <td>Stockholm, Sweden</td>
+            <td>1234567890</td>
+            <!-- <td>hello</td> -->
+            <td><a href="img4.jpg"><img src="img4.jpg" alt="h & m" width="100"></a></td>
+            <td><a href="https://www2.hm.com/en_in/index.html">h & m</a></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
